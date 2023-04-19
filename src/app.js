@@ -9,6 +9,8 @@ const PORT = process.env.PORT || '3000';
 
 app.use(express.static(path.join(__dirname, '/public')));
 
+app.use(express.static(path.join(__dirname, '/assets')));
+
 app.listen(PORT, HOST, () => {
     console.log(`Server running at http://${HOST}:${PORT}/`);
 });

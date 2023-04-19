@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
+@font-face {
+  font-family: "Animal Font";
+  src: url("../../user-interface/animal-font.ttf") format("truetype");
+}
+
 ::selection {
   background: transparent;
 }
@@ -33,6 +38,7 @@ body {
   font-variant: small-caps;
   background-color: #181818;
   color: #e7e7e7;
+  overflow: hidden;
 }
 
 .flex {
@@ -43,4 +49,23 @@ body {
 
 .column {
   flex-direction: column;
+}
+
+.font-lg {
+  font-size: 5rem;
+}
+
+.absolute {
+  position: absolute;
+  align-items: start;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.animal-font {
+  font-family: "Animal Font", sans-serif;
+  margin: 0.5% 0 0 0.5%;
+  width: 110px;
 }
