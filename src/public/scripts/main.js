@@ -6,3 +6,5 @@ screen.draw();
 
 const menu = new Menu();
 menu.footPrint();
+menu.account();
+menu.menuButtons();
